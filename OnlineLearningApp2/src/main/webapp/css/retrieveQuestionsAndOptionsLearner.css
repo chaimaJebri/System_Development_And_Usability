@@ -1,0 +1,95 @@
+
+/*List Group Styling*/
+
+.eachQuestion {
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #f2f2f2;
+}
+
+.questionTextClass {
+    margin-bottom: 12px;
+}
+
+.eachOption {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    font-size: 0.875rem;
+}
+
+.questionsOptsContainer{
+	padding-bottom:100px;
+}
+
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-color: #4F8F77;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+/*Headers (h1,h3) Styling*/
+
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+.quizNotFoundHeader{
+	margin-top: 250px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+
+/*Submit Button Styling*/
+
+.submitBtnContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitBtn{
+  margin-bottom: 10px;
+  background-color: #4F8F77;
+}
+
+.submitBtn:hover{
+  background-color: #3F725F; 
+}
+
+
+/*Important p Tag Styling*/
+
+.pTag{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+

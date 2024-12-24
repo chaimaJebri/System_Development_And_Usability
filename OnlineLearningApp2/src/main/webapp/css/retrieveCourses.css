@@ -1,0 +1,162 @@
+body {
+	position:relative;
+	background-image : url('../images/courseImg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Cards Styling*/
+
+.course-card {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}
+
+.course-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px; 
+    background-color: #f2f2f2;
+}
+.course-card .card-title {
+    font-size: 1.2rem;
+}
+
+.course-card .card-text {
+    font-size: 0.875rem;
+    margin-bottom: auto; 
+}
+
+.course-card .card-img-top {
+    height: 150px; /* Adjust height of the image */
+    object-fit: cover;
+}
+
+#courseCards .col {
+    padding: 5px; 
+}
+
+.course-card .card-body h6 {
+    font-size: 0.8rem;
+}
+
+.course-card .card-body a{
+	text-decoration: none;
+	color: black;
+}
+
+.course-card .card-body a:hover{
+	cursor:default;
+}
+
+.course-card .deleteEditButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px; /* Space between text and buttons */
+}
+
+.course-card .deleteEditButtons button {
+    width: 45%; /* Adjust button width */
+    margin: 0; 
+    font-size: 0.850rem; /* Adjust font size for buttons */
+}
+
+.container {
+    padding-bottom: 100px;
+}
+
+/*Header Styling*/
+
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-image : url('../images/courseImg.jpg');
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+/*Modal Styling*/
+
+.modal-dialog {
+    max-width: 400px;
+}
+.modal-body {                /* to put labels and inputs in the center of the modal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container{
+	border-radius: 8px;
+}
+.form-container	h4 {
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-container input {
+    width: 95%;
+    padding: 5px; 
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+span {
+    font-size: 0.85em; /* Smaller font size */
+}
+
+
+/*Add Edit course Buttons Colour*/
+
+.addEditBtns{
+	border:none;
+	background-color: #3F725F;
+}
+
+.addEditBtns:hover{
+	background-color: #34604F;
+}
+
+
+
+
+.mainBtn{
+	background-color: #faf7e0;
+    color: #faf7e0;
+    border: none; 
+    opacity: 0.5;
+}
+
+.mainBtn:hover{
+	cursor:default;
+}
+
+
+
+
+

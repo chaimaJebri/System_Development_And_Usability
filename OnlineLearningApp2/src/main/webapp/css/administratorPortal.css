@@ -1,0 +1,140 @@
+body {
+	background-color: #FAF7E0;  /*the new colour*/
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1, h2 {
+	text-align: center;
+	margin: 20px 0;
+	letter-spacing: 0.5px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+	font-size:25px;
+}
+
+.adminPortalButtons {
+	margin-top: 20px;
+}
+.adminPortalButtons button {
+	padding: 10px;
+	font-size: 25px;
+	background-color: #4F8F77;
+	color: #FAF7E0;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.adminPortalButtons button:hover {
+	background-color: #3F725F;
+}
+
+/*Drop Down Menu Styling*/
+
+.dropdown {
+    position: absolute; 
+    bottom: 25px;
+    left: 25px; 
+}
+
+.dropdown-toggle {
+    font-size: 2em;
+    padding: 10px;
+    border: none;
+    background: transparent;
+}
+
+.dropdown-menu {
+    font-size: 1.0em;
+    padding: 10px; 
+}
+
+/*Modal Styling*/
+
+.modal-dialog {
+    max-width: 400px;
+}
+.modal-body {                /* to put labels and inputs in the center of the modal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container{
+	border-radius: 8px;
+}
+.form-container	h4 {
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-container input {
+    width: 95%;
+    padding: 5px; 
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+span {
+    font-size: 0.85em; /* Smaller font size */
+}
+
+/*Save changes (edit modal) Button Color*/
+
+.saveBtn{
+	border:none;
+	background-color: #3F725F;
+}
+
+.saveBtn:hover{
+	background-color: #34604F;
+}
+
+
+
+/*Toast Notifications Styling*/
+
+.toast, .toast-header, .toast-body {
+    background-color: #f5f5f5; 
+    color: #000;
+}
+.toast .btn-close{
+	color: #000;
+	opacity: 1;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*When the save changes button is disabled, change its colour and disable the cursor*/
+
+#editProfileButtonModal:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

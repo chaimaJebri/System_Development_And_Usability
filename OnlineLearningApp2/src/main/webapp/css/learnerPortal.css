@@ -1,0 +1,203 @@
+
+/*Background Colour Styling*/
+body {
+	position:relative;
+	background-image : url('../images/courseImg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*Modal Styling*/
+
+.modal-dialog {
+    max-width: 400px;
+}
+.modal-body {                /* to put labels and inputs in the center of the modal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container{
+	border-radius: 8px;
+}
+.form-container	h4 {
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-container input {
+    width: 95%;
+    padding: 5px; 
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+span {
+    font-size: 0.85em; /* Smaller font size */
+}
+
+
+/*Cards Styling*/
+
+.course-card {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}
+
+.course-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px; 
+    background-color: #f2f2f2;
+}
+
+.course-card .card-body h6 {
+    font-size: 1.2rem;
+}
+.course-card .card-title {
+    font-size: 0.8rem;
+}
+
+.course-card .card-text {
+    font-size: 0.875rem;
+    margin-bottom: auto; 
+}
+
+.course-card .card-img-top {
+    height: 150px; /* Adjust height of the image */
+    object-fit: cover;
+}
+
+#courseCards .col {
+    padding: 5px; 
+}
+
+.course-card .card-body a{
+	text-decoration: none;
+	color: black;
+}
+
+.course-card .card-body a:hover {
+	cursor:default;
+}
+
+.container {
+    padding-bottom: 100px;
+}
+
+/*Header Styling*/
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-image : url('../images/courseImg.jpg');
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbarContainer input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 270px;
+    border-radius: 50px; /* Make the sides rounded */
+    border: 1px solid #ccc; /* Optional: Add a border */
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+.iconsGroup {
+	display: flex;
+    gap: 15px;
+}
+
+.notifTrackIcon {
+	font-size: 1.35em;
+    border: none;
+    background: transparent;
+}
+
+
+/*Drop-Down Menu Styling*/
+
+.dropdown-toggle {
+    font-size: 1.60em;
+    border: none;
+    background: transparent;
+}
+
+.dropdown-menu {
+    font-size: 1.0em;
+    padding: 10px; 
+}
+
+
+/*Edit Profile Button Colour*/
+
+.editPBtn{
+	border:none;
+	background-color: #3F725F;
+}
+
+.editPBtn:hover{
+	background-color: #34604F;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*When the save changes button is disabled, change its colour and disable the cursor*/
+
+#editProfileButtonModal:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+/*My certificates button styling*/
+
+#myCertifs{
+	border:none;
+	background-color: #4F8F77;
+	position: relative;
+    top: 20px; 
+    margin-left: 20px;
+}
+#myCertifs:hover{
+	background-color: #3F725F;
+}
+
+/*Styling the moved button on the top right corner of the screen*/
+
+.movedBtn{
+	border:none;
+	background-color: #4F8F77;
+	position: absolute;
+    top: 20px; 
+    right: 20px;
+    width:100px;
+    z-index: 1000;
+}
+.movedBtn:hover{
+	background-color: #3F725F;
+}

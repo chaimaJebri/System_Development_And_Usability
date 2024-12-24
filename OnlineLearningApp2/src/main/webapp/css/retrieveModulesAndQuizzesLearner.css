@@ -1,0 +1,120 @@
+/*Cards Styling*/
+
+.module-quiz-card {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}
+
+.module-quiz-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px; 
+    background-color: #f2f2f2;
+}
+.module-quiz-card .card-title {
+    font-size: 1.2rem;
+}
+
+.module-quiz-card .card-text {
+    font-size: 0.875rem;
+    margin-bottom: auto; 
+}
+
+#moduleCards .col {
+    padding: 5px; 
+}
+
+#quizCards .col {
+    padding: 5px; 
+}
+
+.module-quiz-card .card-body a{
+	text-decoration: none;
+	color: black;
+}
+
+.module-quiz-card .card-body a:hover {
+	cursor:default;
+}
+
+.container {
+    padding-bottom: 50px;
+}
+
+
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-color: #4F8F77;
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+/*Headers (h1,h2,h3) Styling*/
+
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+.courseNotFoundHeader{
+	margin-top: 250px;
+}
+
+h2 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+
+/*Get certif button styling*/
+
+#getCertifBtn{
+	border:none;
+	background-color: #4F8F77;
+	position: relative;
+    top: 20px; 
+    margin-left: 20px;
+}
+#getCertifBtn:hover{
+	background-color: #3F725F;
+}
+
+
+/*Previous button where course is not found becomes hard to find*/
+
+.prvBtn{
+	background-color: #4F8F77;
+    color: #4F8F77;
+    border: none; 
+    opacity: 0.5;
+}
+
+.prvBtn:hover{
+	cursor:default;
+}
+

@@ -1,0 +1,59 @@
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-color: #4F8F77;
+    
+    
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+/*Header Styling*/
+
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.moduleNotFoundHeader{
+	margin-top: 250px;
+}
+
+/*P tag and its content Styling*/
+
+h5, h6 {
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+	margin-left: 20px;
+}
+
+.container{
+	padding-bottom: 50px;
+}
+
+/*Previous Button hard to find*/
+
+.prvBtn{
+	background-color: #4F8F77;
+    color: #4F8F77;
+    border: none; 
+    opacity: 0.5;
+}
+
+.prvBtn:hover{
+	cursor:default;
+}
+

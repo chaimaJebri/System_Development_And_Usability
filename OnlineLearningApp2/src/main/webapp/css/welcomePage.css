@@ -1,0 +1,8 @@
+
+/*Background Picture Styling*/
+body {
+	position:relative;
+	background-image : url('../images/welcomePageBackgroundImg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
