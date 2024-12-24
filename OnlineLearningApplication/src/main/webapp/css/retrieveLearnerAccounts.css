@@ -1,0 +1,153 @@
+/*Table Styling*/
+
+.tab-container {
+	max-width: 1250px; 
+    margin: 0 auto; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 3px;
+  text-align: center;
+}
+th {
+	background-color: #6c757d;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+td {
+	font-size: 14px;            /*size of the text inside table cases*/
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-color: #4F8F77;
+}
+
+.navbarContainer input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 270px;
+    border-radius: 50px; /* Make the sides rounded */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    margin-left: -180px;
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+/*Header Styling*/
+
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+/*Notify Learners Button*/
+
+.notifyBtn {
+	margin-top:20px;
+	margin-bottom:12px;
+	margin-left: 20px;
+}
+
+
+/*Modal Styling*/
+
+.modal-dialog {
+    max-width: 400px;
+}
+.modal-body {                /* to put labels and inputs in the center of the modal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container{
+	border-radius: 8px;
+}
+.form-container	h4 {
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-container input {
+    width: 95%;
+    padding: 5px; 
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+span {
+    font-size: 0.85em; /* Smaller font size */
+}
+
+
+
+
+/*Send Email Button Colour*/
+
+.sendBtn{
+	border:none;
+	background-color: #3F725F;
+}
+
+.sendBtn:hover{
+	background-color: #34604F;
+}
+
+
+
+/*Toast Notifications Styling*/
+
+.toast, .toast-header, .toast-body {
+    background-color: #f5f5f5; 
+    color: #000;
+}
+.toast .btn-close{
+	color: #000;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

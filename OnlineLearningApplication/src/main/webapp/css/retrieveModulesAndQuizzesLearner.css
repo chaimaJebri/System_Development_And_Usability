@@ -1,0 +1,98 @@
+/*Cards Styling*/
+
+.module-quiz-card {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}
+
+.module-quiz-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px; 
+    background-color: #f2f2f2;
+}
+.module-quiz-card .card-title {
+    font-size: 1.2rem;
+}
+
+.module-quiz-card .card-text {
+    font-size: 0.875rem;
+    margin-bottom: auto; 
+}
+
+#moduleCards .col {
+    padding: 5px; 
+}
+
+#quizCards .col {
+    padding: 5px; 
+}
+
+.module-quiz-card .card-body a{
+	text-decoration: none;
+}
+
+.module-quiz-card .card-body a:hover {
+	text-decoration: underline;
+}
+.container{
+	margin-bottom:50px;
+}
+
+
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-color: #4F8F77;
+}
+
+.navbarContainer input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 270px;
+    border-radius: 50px; /* Make the sides rounded */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    margin-left: -170px;
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+/*Headers (h1,h2,h3) Styling*/
+
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+.courseNotFoundHeader{
+	margin-top: 250px;
+}
+
+h2 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  margin-left: 20px;
+}

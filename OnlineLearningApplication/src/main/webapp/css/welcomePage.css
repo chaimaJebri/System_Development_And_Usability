@@ -1,0 +1,35 @@
+
+/*Background Picture Styling*/
+body {
+	position:relative;
+	background-image : url('../images/welcomePageBackgroundImg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Login Registration Buttons Styling*/
+.loginRegistrationContainer{
+	display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    padding-top: 390px;
+    margin-left: 600px;
+}
+
+
+.loginRegistrationContainer button{
+	display: block; 
+    margin: 10px 0; 
+    font-size: 30px; 
+    padding: 6px 25px;
+    border: none;
+    border-radius: 8px; 
+    background-color: #4F8F77; /*#4B412E*/
+    color: #fff; 
+    cursor: pointer;
+}
+
+.loginRegistrationContainer button:hover{
+	background-color: #3F725F;
+}

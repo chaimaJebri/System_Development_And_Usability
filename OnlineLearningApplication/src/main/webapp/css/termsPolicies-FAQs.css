@@ -1,0 +1,98 @@
+/*Navbar Styling*/
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    background-color: #4F8F77;
+}
+
+.navbarComponent {
+    margin: 0 10px;
+}
+
+/*Header Styling*/
+
+h1 {
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+/*Form Styling*/
+
+.formContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top:30px;
+}
+
+.formComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+textarea {
+    width: 800px;
+    height: 350px;
+    margin-bottom: 30px; 
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 8px; 
+}
+
+.formContainer button{
+	background-color: #4F8F77;
+}
+
+.formContainer button:hover{
+	background-color: #3F725F;
+}
+
+.textArea2 {
+    width: 1200px;
+    height: 480px;
+    margin-bottom: 30px; 
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 8px; 
+}
+
+
+/*Toast Notifications Styling*/
+
+.toast, .toast-header, .toast-body {
+    background-color: #f5f5f5; 
+    color: #000;
+}
+.toast .btn-close{
+	color: #000;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Question 01: How do I get started with learning a new programming language on this platform?
+Answer 01: To get started, simply create an account or log in if you already have one. On your portal, you will find all available courses, select the one you wish to learn by clicking on its name. Then you will be redirected to the page where all the modules and the quizzes of that course are listed.
+
+
+Question 02: What if I need help while using the website? 
+Answer 02: Don't worry we're happy to help at any time. when getting stuck on something, you can click the Help button on your portal, and the admin email will be displayed. Use that email address to contact us.
+
+
+Question 03: Can I access the courses and exercises offline?
+Answer 03: Unfortunately, not. Out platform requires an internet connection to access courses and exercises. However, we are working on developing offline features.
+
+
+Question 04:How long it takes to learn a course?
+Answer 04: The time required to complete a course varies based on the course's complexity and your prior experience. On average, a course might take anywhere from a few weeks to a couple of months if you study part-time. We recommend setting aside regular, focused study sessions to make steady progress.

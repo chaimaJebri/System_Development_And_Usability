@@ -1,0 +1,131 @@
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	
+	position:relative;
+	background-image : url('../images/reg-loginBackgroundImg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+div {
+	 text-align: center;
+	 padding: 20px;
+	 border: 1px solid #ccc;
+	 border-radius: 8px;
+	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	 background-color:#fff;
+}
+
+h1 {
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	font-weight: 550;  /*bold*/
+	font-size: 31px;
+}
+
+
+form {
+	width: 350px; /* Set a width for the form */
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	padding: 5px;
+	margin: 7px 0;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 3px;
+}
+
+
+button {
+	padding: 6px;
+	background-color: #4F8F77; /*the button colour*/
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+                                      
+button:hover {
+	background-color: #3F725F; /*this darker green*/
+}
+
+p {
+	margin-top: 7px;
+	font-size: 15px; 
+}
+
+.pubDevice{
+	margin-top: 25px;
+	margin-bottom: 3px;
+}
+
+.authenticationFailed{
+	color: red;
+	margin-bottom: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #4F8F77;  /*this*/
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.loginLink{
+	display: inline-block;
+	margin-top: 7px;
+}
+
+span {
+    font-size: 0.85em; /* Smaller font size */
+}
+
+#isCreated{
+	margin-top: 10px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*When the Sign Up and login buttons are disabled, change their colour and disable the cursor*/
+
+#signUpButton:disabled, #loginButton:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
