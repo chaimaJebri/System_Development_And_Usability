@@ -4,7 +4,8 @@ The purpose of this project is to evaluate Nielsen’s usability heuristics to s
 # Project Structure
 * OnlineLearningApplication: The app adhering to Nielsen's Usability Heuristics.
 * OnlineLearningApp2: The app that does not adhere to Nielsen's Usability Heuristics.
-* Results.pdf: the file that includes detailed results of the usability testing and statistical analysis.
+* Results.pdf: includes detailed results of the usability testing and statistical analysis.
+* Interface-Screenshots.pdf: contains screenshots of both apps, with explanations on how they adhere to or violate Nielsen's Usability Heuristics.
 
 Both applications provide the same core functionality but differ in their usability, aiming to determine whether the set of heuristics effectively enhances system usability.
 
