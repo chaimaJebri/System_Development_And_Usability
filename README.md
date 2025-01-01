@@ -46,6 +46,30 @@ Both versions of the online learning application can be set up and run in Eclips
 If you are using different versions of Java or Tomcat, you may need to configure a Build Path and a Target Runtimes (Right click on the project - Properties – Java Build Path / Target Runtimes).
 
 
+# Online Learning Application Annotated Screenshots
+
+#### Welcome Page
+![App01-welcomePage](https://github.com/user-attachments/assets/f5fec5ad-d0d6-4d81-a818-f036f69bea2d)
+
+#### Registration Page
+![App01-registration](https://github.com/user-attachments/assets/c7f506de-5bb1-4f14-bac0-5dbdf0ec0318)
+
+#### Login Page
+![App01-login](https://github.com/user-attachments/assets/a6d29fd1-e85c-48cf-84a5-fab7e1d377e2)
+
+# Online Learning App2 Annotated Screenshots
+
+#### Welcome Page
+![App02-welcomePage](https://github.com/user-attachments/assets/fde5b748-a7de-40fd-91a4-4498ff4efacc)
+
+#### Resigtration Page
+![App02-registration](https://github.com/user-attachments/assets/3ee6b312-6d1a-4d0b-bfd1-c23b075309ff)
+
+#### Login Page
+![App02-login](https://github.com/user-attachments/assets/9eb1513a-0772-456e-9260-0565b9bf19d8)
+
+
 Author: Chaima Jebri
 
-Last updated: December 24, 2024
+Last updated: January 01, 2025
+
