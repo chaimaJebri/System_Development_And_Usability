@@ -50,13 +50,13 @@ If you are using different versions of Java or Tomcat, you may need to configure
 # Online Learning Application Annotated Screenshots
 
 #### Welcome Page
-![App01-welcomePage](https://github.com/user-attachments/assets/f5fec5ad-d0d6-4d81-a818-f036f69bea2d)
+![App01-welcomePage](https://github.com/user-attachments/assets/a4fe1118-5806-414a-9675-989e18baffe7)
 
 #### Registration Page
-![App01-registration](https://github.com/user-attachments/assets/c7f506de-5bb1-4f14-bac0-5dbdf0ec0318)
+![App01-registration](https://github.com/user-attachments/assets/cf93177e-4ecf-4f36-a07b-006fe05d78d3)
 
 #### Login Page
-![App01-login](https://github.com/user-attachments/assets/a6d29fd1-e85c-48cf-84a5-fab7e1d377e2)
+![App01-login](https://github.com/user-attachments/assets/8222e69d-170d-40c9-b34c-cfbbfcf08269)
 
 # Online Learning App2 Annotated Screenshots
 
